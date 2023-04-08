@@ -242,6 +242,142 @@ body{
   .active{
     border-bottom: #000 solid;
   }
+  /* Mobile devices */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 3.5vw;
+  }
+
+  .header {
+    padding: 3%;
+  }
+
+  .email {
+    padding-left: 5vw;
+    padding-right: 10vw;
+  }
+
+  .header img {
+    width: min(10vw, 200px);
+  }
+
+  .header i {
+    font-size: 4vw;
+    padding-left: 4vw;
+  }
+
+  .me {
+    padding: 8%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .me h1 {
+    padding-left: 0;
+  }
+
+  .me img {
+    padding: 5%;
+    padding-left: 0;
+    width: 40%;
+  }
+
+  .main {
+    padding-left: 5vw;
+    padding-top: 5vw;
+  }
+
+  .works {
+    display: block;
+    padding-left: 0;
+    column-gap: 0;
+  }
+
+  .flip-card {
+    width: 200px;
+    height: 200px;
+  }
+
+  .headings {
+    font-size: 7vw;
+    padding-left: 20vw;
+  }
+
+  .school {
+    display: block;
+    margin: 5vw;
+  }
+
+  .data {
+    padding: 5vw;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 1.5vw;
+  }
+
+  .header {
+    padding: 2%;
+  }
+
+  .email {
+    padding-left: 15vw;
+    padding-right: 10vw;
+  }
+
+  .header img {
+    width: min(8vw, 200px);
+  }
+
+  .header i {
+    font-size: 2vw;
+    padding-left: 3vw;
+  }
+
+  .me {
+    padding: 5%;
+    max-width: 50%;
+  }
+
+  .me h1 {
+    padding-left: 1vw;
+  }
+
+  .me img {
+    padding: 5%;
+    padding-left: 10%;
+    width: 30%;
+  }
+
+  .works {
+    display: block;
+    padding-left: 5vw;
+    column-gap: 0;
+  }
+
+  .flip-card {
+    width: 200px;
+    height: 200px;
+  }
+
+  .headings {
+    font-size: 4vw;
+    padding-left: 20vw;
+  }
+
+  .school {
+    display: block;
+    margin: 5vw;
+  }
+
+  .data {
+    padding: 5vw;
+  }
+}
+
   
   
 
